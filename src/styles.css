@@ -1,5 +1,31 @@
-h1 {
+/*h1 {
   color: #369;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
+}*/
+
+#hero{
+	padding-top: 10%;
+	padding-bottom: 15%;
+}
+
+#app-divider{
+	height: 1px;
+	background-color: #ededed;
+}
+
+.navbar-brand{
+	color: white;
+}
+
+.navbar-brand:hover{
+	color: #28aa8a;
+}
+
+.header{
+	font-size: 72px;
+}
+
+.subheader{
+	font-size: 22px;
 }
