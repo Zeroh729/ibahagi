@@ -1,0 +1,9 @@
+#tweetclass-menu{
+	background-color: white;
+	box-shadow: 2px 0 15px #dadada;
+}
+
+#map {
+	height: 400px;
+	width: 100%;
+}
