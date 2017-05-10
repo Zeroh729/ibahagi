@@ -1,9 +1,146 @@
 #tweetclass-menu{
 	background-color: white;
-	box-shadow: 2px 0 15px #dadada;
+	box-shadow: 2px 0px 6px rgba(0, 0, 0, 0.14);
+	z-index: 1;
+	position: relative;
 }
 
-#map {
-	height: 400px;
-	width: 100%;
+#tweetclass-menu div{
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+#tweetclass-map{
+	background-color: #c1c1c1;
+}
+
+
+.sebm-google-map-container {
+  	height: 100%;
+}
+
+#menu-header-section{
+	background-color: white;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.14);
+	top: 0;
+	height: 135px;
+}
+
+.section-title{
+	margin-top: 20px;
+	margin-bottom: 4px;
+}
+
+.section-title-small{
+	
+}
+
+.section-subtitle{
+	font-weight: 500;
+	margin-bottom: 4px;
+}
+
+.parenthesized-date{
+	font-size: 9pt;
+	font-weight: 200;
+	font-style: italic;
+}
+
+#tweet-datepicker{
+	border-style: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: white;
+}
+
+#content-section{
+	top: 135px;
+	bottom: 120px;
+	padding-left: 22px;
+	padding-right: 22px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	position: absolute;
+	overflow-y: auto;
+}
+
+.content{
+	padding-bottom: 30px;
+	position: relative !important;
+}
+
+
+.content *{
+	position: relative !important;
+}
+
+.label{
+	margin-top: 18px;
+}
+
+.label-title{
+	margin-top: 18px;
+	font-size: 15px;
+}
+
+.label-button{
+	font-size: 12px;
+	border-style: none;
+	background-color: transparent;
+}
+
+.label-title-line{
+	width: 70px;
+    height: 4px;
+    margin-top: 3px;
+}
+
+.custom-list{
+	margin-top: 8px;
+	padding-left: 20px;
+}
+
+.custom-list li{
+    height: 45px;
+    padding-top: 4px;
+    padding-bottom: 4px; 
+	border-bottom: #e8e8e8;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    list-style-type: none;
+}
+.custom-list li:hover{
+	cursor: pointer;	
+}
+
+.list-right-data{
+	float: right; 
+	font-size: 14px;
+	margin-top: 8px;
+}
+
+#filter-section{
+	background-color: white;
+	box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.14);
+	height: 120px;
+	bottom: 0;
+}
+
+.list-title{
+	margin-bottom: 0px;
+	float: left;
+}
+
+li .middle{
+	margin-top: 8px;
+}
+
+.list-subtitle{
+	font-size: 10px;
+	color: darkgray;
+	top: -11px;
+	margin-bottom: 0px;
 }

@@ -18,6 +18,14 @@
 	background-color : #f15025;
 }
 
+button.bg-red:active{
+	background-color : #d23f18;
+}
+
+button.bg-red:hover{
+	cursor: pointer;
+}
+
 .color-yellow{
 	color : #f9d424;
 }
@@ -29,6 +37,16 @@
 .color-lightblue{
 	color : #75b9be;
 }
+
+button.color-lightblue:active{
+	background-color: #f3f3f3;
+}
+
+button.color-lightblue:hover{
+	color : #68cad2;
+	cursor: pointer;
+}
+
 
 .bg-lightblue{
 	background-color : #75b9be;
