@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ibahagi</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/color.css">
+
+    <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="https://jspm.io/system@0.16.js"></script>
+
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDG5KgbeflWe0cVvuOEZezfht5KLh_duCk",
+        authDomain: "pcari-a4a6a.firebaseapp.com",
+        databaseURL: "https://pcari-a4a6a.firebaseio.com",
+        projectId: "pcari-a4a6a",
+        storageBucket: "pcari-a4a6a.appspot.com",
+        messagingSenderId: "819985626591"
+      };
+      firebase.initializeApp(config);
+    </script>
+  </head>
+
+  <body>
+  	<nav class="navbar navbar-toggleable-md bg-cyan">
+	   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	   	<span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <a class="navbar-brand" href="#">ibahagi</a>
+
+		<div class="collapse navbar-collapse" id="navbarCollapse">
+		    <ul class="navbar-nav mr-auto">
+		    </ul>
+		    <ul class="navbar-nav mt-2 mt-md-0">
+			    <li class="nav-item">
+			    	<a href="#">Apps and Research Insights</a>
+			    </li>
+		    	<li class="nav-item">
+		    		<a href="#">Resources</a>
+		    	</li>
+		    </ul>
+		  </div>
+	</nav>
+
+	<div id="hero-image-container" class="bg-cyan-dark">
+		<h1 style="z-index: 500">ibahagi</h1>
+		<h4 style="z-index: 500">A collection of research insights and tools focused on the Opinions of Filipinos for Disaster Risk Reduction</h4>
+	</div>
+	<div class="blog-container container">
+		<h1>Apps and Research Results</h1>
+		<div class='row'>
+			<div class='col-md-4 col-sm-12'>
+				<div class='card'>
+					<img class='card_img_1' src='img/blog_malasakit.png'/>
+					<span class='card-title-bottom'>Malasakit</span>
+				</div>
+			</div>
+			<div class='col-md-4 col-sm-12'>
+				<div class='card'>
+					<img class='card_img_1' src='img/blog_tweetclass.png'/>
+					<span class='card-title-bottom'>Tweet Classifier</span>
+				</div>
+			</div>
+			<div class='col-md-4 col-sm-12'>
+				<div class='card'>
+					<img class='card_img_1' src='img/blog_topicmodeling.png'/>
+					<span class='card-title-bottom'>Topic Modeling</span>
+				</div>
+			</div>
+		</div>
+		<a href='#' class='container-action'>See All</a>
+	</div>
+	<div id="opendata-container" class="container">
+		<h1>Resources</h1>
+		<div class='row'>
+			<div class='col-md-6'>
+				<h2>Research Papers 
+					<span>(All co-authored by Dr. Rachel Roxas and Nathaniel Oco)</span>
+				</h2> 
+				<div class="card">
+					<ul class="nospaces">
+						<li>
+						<a href="https://sites.google.com/site/11nnlprs/004-010.pdf?attredirects=0&d=1">
+							<img src='img/ic_docs.png'/> 
+							<p>FSPOST: A Part-of-Speech Tagger for Filipino
+								<span><br>Matthew Go</span>
+							</p> 
+						</a>
+						</li>
+						<li>
+							<img src='img/ic_docs.png'/> 
+							<p>Analyzing Sentiments and Suggestions of Baranggay Community Members Using Ashizawa's Value-Action Framework : A Case Study of Malasakit
+								<span><br>Jake Manalaysay and Gregorio Quintangon</span>
+							</p> 
+						</li>
+						<li>
+							<img src='img/ic_docs.png'/> 
+							<p>Classifying Typhoon Related Tweets using Word Embeddings and Convolution Nueral Networks
+								<span><br>Alron Lam</span>
+							</p> 
+						</li>
+					</ul>
+				</div>
+				<a href='#' class='container-action'>See All</a>
+			</div>
+			<div class='col-md-6'>
+				<h2>Open Data</h2> 
+				<div class="card">
+					<ul class="nospaces">
+						<li>
+						<a href="https://www.dropbox.com/sh/b1dp56htdm9qux0/AACAp6l5PP00D26aAnyUvw5Ka/Tweets?dl=0">
+							<img src='img/ic_csv.png'/> 
+							<p>YolandaPH Tweets.csv
+								<span><br>Contains public tweets in the Philippines before, during, and 7 days after the typhoon Yolanda struck.</span>
+							</p> 
+						</a>
+						</li>
+						<li>
+							<img src='img/ic_xls.png'/> 
+							<p>Malasakit Responses.xls
+								<span><br>Contains responses from the following barangays: Rizal, La Union, Cebu, and Sampaloc</span>
+							</p> 
+						</li>
+					</ul>
+				</div>
+				<a href='#' class='container-action' style="display: none">See All</a>
+			</div>
+		</div>
+	</div>
+	<div id="credits-container">
+		<img src='img/logo_nu.png'/>
+		<img src='img/logo_pcari.png'/>
+		<img src='img/logo_ucb.png'/>
+		<p>
+			A project under National University, Philippines,  and University of California Berkeley, through the Philippine-California Advanced Research Institutes Project.
+			<br><br>
+			E-participation 2.0: Connecting Diverse Philippine Populations for Disasater Risk Management with a Toolkit Integrating Text and Speech Analysis
+		</p>
+	</div>
+
+  </body>
+</html>

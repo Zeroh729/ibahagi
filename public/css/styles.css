@@ -1,0 +1,81 @@
+@font-face {
+    font-family: hero_font;
+    src: url(../font/Hero.otf);
+}
+
+@font-face {
+    font-family: hero_light_font;
+    src: url(../font/Hero-Light.otf);
+}
+
+/*h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}*/
+
+.html{
+	font-family: helvetica;
+}
+
+.title-text{
+	font-family: hero_font;
+	font-size: 2.5rem;
+}
+
+li.nav-item a{
+	color: white;
+	margin-right: 12px;
+}
+
+#hero{
+	padding-top: 10%;
+	padding-bottom: 15%;
+}
+
+#app-divider{
+	height: 1px;
+	background-color: #ededed;
+}
+
+.navbar-brand{
+	color: white;
+}
+
+.navbar-brand:hover{
+	color: #28aa8a;
+}
+
+.header{
+	font-size: 72px;
+}
+
+.subheader{
+	font-size: 22px;
+}
+
+.nospaces{
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.withpadding{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.withmargin{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.card{
+	border-width: 0.5pt;
+	border-radius: 8px;
+	border-color: #c8c8c8;
+	overflow: hidden;
+}

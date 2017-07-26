@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ibahagi</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/color.css">
+        <link rel="stylesheet" href="css/admin_login.css">
+
+        <!-- Polyfill(s) for older browsers -->
+        <script src="node_modules/core-js/client/shim.min.js"></script>
+
+        <script src="node_modules/zone.js/dist/zone.js"></script>
+        <script src="node_modules/systemjs/dist/system.src.js"></script>
+        <script src="https://jspm.io/system@0.16.js"></script>
+
+        <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyDG5KgbeflWe0cVvuOEZezfht5KLh_duCk",
+            authDomain: "pcari-a4a6a.firebaseapp.com",
+            databaseURL: "https://pcari-a4a6a.firebaseio.com",
+            projectId: "pcari-a4a6a",
+            storageBucket: "pcari-a4a6a.appspot.com",
+            messagingSenderId: "819985626591"
+          };
+          firebase.initializeApp(config);
+        </script>
+    </head>
+    <body>
+        <div class="container form-container">
+            <div class="row">
+                <div class="col-md-6" style="margin: auto">
+                    <h3 class="title-text">ibahagi Admin</h3>
+                    <div id="card-login" class="card">
+                        <form id="form-login">
+                            <div class="withpadding">
+                                <span>Username</span>
+                                <input type="text" name="username">
+                                <span>Password</span>
+                                <input type="password" name="password">
+                            </div>
+                            <input class="bg-lightblue" type="submit" value="Submit" onclick="onClickLogin">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            function onClickLogin(){
+                
+            }
+        </script>
+    </body>
+</html>

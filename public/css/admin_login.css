@@ -1,0 +1,23 @@
+#card-login{
+	margin-left: 32px;
+	margin-right: 32px;
+}
+
+.form-container{
+	margin: auto;
+	margin-top: 15%;
+}
+
+.card form *{
+	display: grid;
+}
+
+.card form input[type=submit]{
+	margin-top: 10px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin-bottom: -5px;
+	width: 100%;
+	color: white;
+	border-style: none;
+}

@@ -1,0 +1,33 @@
+.navbar span{
+	color: white;
+	width: 100%;
+}
+
+.navigation-list-vertical{
+	list-style: none;
+	margin-top: 100px;
+	margin-bottom: 100px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-left-style: solid;
+    border-left-color: #dddddd;
+    border-left-width: 0.5pt;
+}
+
+.navigation-list-vertical li a{
+	color: darkcyan;
+}
+
+.card-title.spacing{
+	margin-top: 64px;
+}
+
+.card-title h1{
+	display: inline-block;
+}
+
+.card-title button{
+	margin-top: 16px;
+	margin-left: 16px;
+	float: right;
+}
